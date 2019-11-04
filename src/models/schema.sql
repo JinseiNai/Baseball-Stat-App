@@ -26,6 +26,6 @@ CREATE TABLE IF NOT EXISTS players (
  K INT,
  FOREIGN KEY (team_id) REFERENCES teams(team_id) );
  
- SELECT * FROM teams;
- SELECT * FROM players;
+--  SELECT * FROM teams;
+--  SELECT * FROM players;
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
+import HomePage from "./routes/home-route";
 
 class App extends React.Component {
   constructor(props) {
@@ -16,7 +16,7 @@ class App extends React.Component {
       <Router>
         <Switch>
           <div>
-
+            <Route exact path="/" component={HomePage} />
           </div>
         </Switch>
       </Router>
